@@ -4,9 +4,9 @@ import styles from "./Hero.module.css";
 
 export const Hero = () => {
   return (
-    <div className="bg-[#F8F8FF]  w-screen h-[90vh]">
+    <div className="bg-[#F8F8FF] w-screen h-[90vh] min-h-[40rem]">
       <div
-        className={`bg-left-bottom bg-cover max-md:bg-[left_-5rem_top] max-md:bg-no-repeat w-full h-full ${styles.heroImage}`}
+        className={`bg-left-bottom bg-cover max-md:bg-[left_-3rem_top] w-full h-full ${styles.heroImage}`}
       >
         <div className="max-w-[90vw] m-auto pt-10 flex flex-col gap-[20%] justify-start h-full">
           <Header />
