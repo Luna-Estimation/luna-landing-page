@@ -5,7 +5,7 @@ import { ContactButton } from "../Button/Button";
 
 export const ContactUs = () => {
   return (
-    <div className="flex justify-between items-center gap-14">
+    <div className="flex justify-between items-center gap-14 max-md:flex-col-reverse">
       <div className="flex flex-col gap-12">
         <Text
           title="Get in Touch"
@@ -14,7 +14,7 @@ export const ContactUs = () => {
         />
         <ContactButton />
       </div>
-      <div className="max-w-[50%] w-[30.625rem] h-[18.75rem]">
+      <div className="max-w-[50%] w-[30.625rem] h-[18.75rem] flex justify-center items-center max-md:max-w-full">
         <Image src={contact} alt="Contact us image" />
       </div>
     </div>

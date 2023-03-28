@@ -16,7 +16,11 @@ module.exports = {
         secondary: '#3C3C4C',
         hover: '#565FB9',
         dark: '#1D1D38',
-      }
+      },
+      screens: {
+        'xs': '500px',
+        'md': '900px',
+      },
     },
   },
   plugins: [],
