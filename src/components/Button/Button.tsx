@@ -22,7 +22,7 @@ export const ContactButton = () => {
   return (
     <a
       href="mailto:info@draftcloud.dev"
-      className="w-[22rem] h-12 bg-white rounded-lg flex justify-center items-center text-primary text-xl font-sans hover:bg-[#F7F7FA]"
+      className="w-[22rem] h-12 bg-white rounded-lg flex justify-center items-center text-primary text-xl font-sans hover:bg-[#F7F7FA] max-xs:w-full"
     >
       <button>Contact Us</button>
     </a>
