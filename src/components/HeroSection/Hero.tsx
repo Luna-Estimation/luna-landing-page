@@ -72,7 +72,7 @@ export const Hero = () => {
       <div className="w-full h-full">
         <div className="max-w-[90vw] m-auto pt-10 flex flex-col gap-[20%] justify-start h-full">
           <Header />
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-10 z-50">
             <h1 className="font-sans text-5xl text-[#2C2B4F]">
               Agile Estimations
             </h1>
